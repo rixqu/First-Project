@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap");
+#container{
+	font-size: 16.5px;
+	display: inline-flex;
+	height: 52px;
+	width: max-width;
+	background-color :white;
+	list-style: none;
+	position: fixed;
+	margin-top: -4px;
+	padding:0;
+	width: 100%;
+	font-weight: 540;
+	box-shadow: 2px 2px 4px #F5F5F5;
+	text-align: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
+
+#header ul{
+	list-style: none;
+	display: inline-flex;
+	margin-left: 210px;
+}
+
+#navbars ul{ 
+	flex-direction: row-reverse;
+	list-style: none;
+	display:inline-flex;
+	list-style: none;
+	text-align: center;
+	gap: 45px;
+	margin-right: 250px;
+	}
+
+a:link { color: black; text-decoration: none; }
+a:visited {color: black;  text-decoration: none; }
+a:active { color: black; text-decoration: none; }
+
+a:hover
+{ 
+	font-size: 18px; 
+	border-bottom: 3px solid royalblue;
+	transform: translate(10px, 5px);
+	transform: translateY(-0.25em);
+	
+}
+#Home{
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	
+/*	overflow: hidden;*/
+
+}
+#title{
+	display: flex;
+}
+h1{ 
+	font-size: 57px;
+	position: relative;
+	left: 200px;
+	margin-top: 50px;
+}
+.Contact{ 
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	background: dodgerblue;
+	border-radius: 20px ;
+	border: 0px solid dodgerblue;
+	position: relative;
+	top: 400px;
+	right: -246px;	
+}
+
+
+#wrapper{
+	display: flex;
+	margin-top: 330px;
+	margin-left: 80px;
+	position: relative;
+	height: 240px;
+	width: 119px;
+	background-color: black;
+  	border-top-width: 150px;
+  	border-bottom-width: 150px;
+  	border-radius: 19px; 
+}
+
+#inner{
+/*	display: flex;*/
+	margin-top:4.5px;
+	margin-left: 4.3px;
+	position: absolute;
+	height: 230px;
+	width: 110px;
+	background-color: white;
+  	border-top-width: 140px;
+  	border-bottom-width: 140px;
+  	border-radius: 14px;
+}
+#notch{
+	margin: 4px auto 0  auto; 
+	height: 10px;
+	width: 33px;
+	background: black;
+	border-radius: 19px;	
+}
+#Circle{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 16px;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	background: dodgerblue;
+}
+#volbuttons{
+	top: -160px;
+	left: 190px;
+	height: 30px;
+	width: 10px;
+	background-color: black;
+	border-radius: 90px;
+	position: relative;
+	z-index: -1;
+}
+
+#shadow{
+	top: .7px;
+	left: 40px;
+	position:relative ;
+	height: 0.8px;
+	width: 200px;
+	background: lightgrey;
+}
+
+#image{
+	position: relative;
+	top: 150px;
+	left: 20p 	x;
+	z-index: -2;
+	
+}
+
+
+#Circle:hover{
+	background: red;
+}
+
+#About{
+	height: 100vh; 
+	display: flex;
+	padding-top: 60px;
+}
+
+h2{
+	font-size: 35px;
+	position: absolute;
+	border-bottom: 4px solid dodgerblue;
+	color: dodgerblue;
+	margin: 0;
+	padding: 0;
+	left: 47%;
+	z-index: -2;
+}
+
+#write1{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 950px;
+	left: 50.6%;	
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: -10px;
+	
+}
+
+#write2{
+	width: 70vh;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 1030px;
+	left: 50.6%;	
+}
+
+#Phone2{	
+
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 600px;
+	left: 180px;
+
+}
+
+#image-2{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 850px;
+	left: 210px;
+	z-index: -2;
+}
+
+#inner2{
+	
+	margin-top:4.5px;
+	margin-left: 4.3px;
+	position: absolute;
+	height: 230px;
+	width: 110px;
+	background-color: white;
+	border-top-width: 140px;
+	border-bottom-width: 140px;
+	border-radius: 14px;
+	}
